@@ -1,0 +1,9 @@
+<mvc:View
+    controllerName="discovery.ui5.controller.App"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+>
+    <App id="app" />
+</mvc:View>

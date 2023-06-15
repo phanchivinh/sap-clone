@@ -1,0 +1,272 @@
+<core:FragmentDefinition
+    xmlns:cards="sap.f.cards"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns="sap.m"
+>
+    <VBox
+        justifyContent="Center"
+        alignItems="Center"
+        class="sapUiLargeMarginTopBottom grayBackground"
+    >
+        <Text
+            text="Linked Galaxies"
+            class="sapUiSmallMarginTopBottom bodyTitle"
+        />
+        <Text
+            text="Federated Repositories"
+            class="bodySubTitle"
+        />
+        <HBox class="sapUiLargeMarginTop">
+            <VBox width="1400px">
+                <Carousel backgroundDesign="Transparent">
+                    <customLayout>
+                        <CarouselLayout visiblePagesCount="4" />
+                    </customLayout>
+                    <!-- Card 1 -->
+                    <f:Card
+                        width="100%"
+                        height="100%"
+                    >
+                        <f:content>
+                            <VBox
+                                class="sapUiSmallMargin"
+                                justifyContent="SpaceBetween"
+                            >
+                                <IllustratedMessage
+                                    illustrationType="sapIllus-SuccessBalloon"
+                                    enableDefaultTitleAndDescription="false"
+                                    illustrationSize="Spot"
+                                />
+                                <VBox
+                                    alignItems="Center"
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMarginTopBottom"
+                                >
+                                    <Text
+                                        text="Integration Content"
+                                        class="textBold"
+                                        textAlign="Center"
+                                    />
+                                    <Text
+                                        text="Discover, test and consume digital content packages with APIs and pre-packaged integrations from SAP and select partners."
+                                        class="cardText"
+                                        textAlign="Center"
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Link
+                                        href="/"
+                                        text="Go to Business Accelerator Hub"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <!-- Card 2 -->
+                    <f:Card
+                        width="100%"
+                        height="100%"
+                    >
+                        <f:content>
+                            <VBox
+                                class="sapUiSmallMargin"
+                                justifyContent="SpaceBetween"
+                            >
+                                <IllustratedMessage
+                                    illustrationType="sapIllus-SuccessHighFive"
+                                    enableDefaultTitleAndDescription="false"
+                                    illustrationSize="Spot"
+                                />
+                                <VBox
+                                    alignItems="Center"
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMarginTopBottom"
+                                >
+                                    <Text
+                                        text="Custom References"
+                                        class="textBold"
+                                        textAlign="Center"
+                                    />
+                                    <Text
+                                        text="Read the reference stories to understand how SAP customers implemented use cases that are similar to our missions, and gain powerful insights and inspiration."
+                                        class="cardText"
+                                        textAlign="Center"
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Link
+                                        href="/"
+                                        text="Go to Custom References"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <!-- Card 3 -->
+                    <f:Card
+                        width="100%"
+                        height="100%"
+                    >
+                        <f:content>
+                            <VBox
+                                class="sapUiSmallMargin"
+                                justifyContent="SpaceBetween"
+                            >
+                                <IllustratedMessage
+                                    illustrationType="sapIllus-Survey"
+                                    enableDefaultTitleAndDescription="false"
+                                    illustrationSize="Spot"
+                                />
+                                <VBox
+                                    alignItems="Center"
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMarginTopBottom"
+                                >
+                                    <Text
+                                        text="Tutorials"
+                                        class="textBold"
+                                        textAlign="Center"
+                                    />
+                                    <Text
+                                        text="Learn more about SAP products and services through SAP tutorials that are free, well organized, and easy to understand."
+                                        class="cardText"
+                                        textAlign="Center"
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Link
+                                        href="/"
+                                        text="Go to SAP Tutorials"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <!-- Card 4 -->
+                    <f:Card
+                        width="100%"
+                        height="100%"
+                    >
+                        <f:content>
+                            <VBox
+                                class="sapUiSmallMargin"
+                                justifyContent="SpaceBetween"
+                            >
+                                <IllustratedMessage
+                                    illustrationType="sapIllus-AddPeople"
+                                    enableDefaultTitleAndDescription="false"
+                                    illustrationSize="Spot"
+                                />
+                                <VBox
+                                    alignItems="Center"
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMarginTopBottom"
+                                >
+                                    <Text
+                                        text="Communities"
+                                        class="textBold"
+                                        textAlign="Center"
+                                    />
+                                    <Text
+                                        text="Connect with SAP software users, developers, consultants, mentors and students to share ideas, learn, and innovate."
+                                        class="cardText"
+                                        textAlign="Center"
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Link
+                                        href="/"
+                                        text="Go to Communities"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <!-- Card 5 -->
+                    <f:Card
+                        width="100%"
+                        height="100%"
+                    >
+                        <f:content>
+                            <VBox
+                                class="sapUiSmallMargin"
+                                justifyContent="SpaceBetween"
+                            >
+                                <IllustratedMessage
+                                    illustrationType="sapIllus-SearchEarth"
+                                    enableDefaultTitleAndDescription="false"
+                                    illustrationSize="Spot"
+                                />
+                                <VBox
+                                    alignItems="Center"
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMarginTopBottom"
+                                >
+                                    <Text
+                                        text="Road Map Explorer"
+                                        class="textBold"
+                                        textAlign="Center"
+                                    />
+                                    <Text
+                                        text="Experience the SAP Road Map Explorer tool to find road maps for SAP Business Technology Services and configure your unique SAP road map."
+                                        class="cardText"
+                                        textAlign="Center"
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Link
+                                        href="/"
+                                        text="Go to Road Map Explorer"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <!-- Card 5 -->
+                    <f:Card
+                        width="100%"
+                        height="100%"
+                    >
+                        <f:content>
+                            <VBox
+                                class="sapUiSmallMargin"
+                                justifyContent="SpaceBetween"
+                            >
+                                <IllustratedMessage
+                                    illustrationType="sapIllus-UploadToCloud"
+                                    enableDefaultTitleAndDescription="false"
+                                    illustrationSize="Spot"
+                                />
+                                <VBox
+                                    alignItems="Center"
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMarginTopBottom"
+                                >
+                                    <Text
+                                        text="Partner Application"
+                                        class="textBold"
+                                        textAlign="Center"
+                                    />
+                                    <Text
+                                        text="Power your Intelligent Enterprise by discovering a wide range of applications and solutions created by our extensive network of partners.
+                                        "
+                                        class="cardText"
+                                        textAlign="Center"
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Link
+                                        href="/"
+                                        text="Go to SAP Store"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                </Carousel>
+            </VBox>
+        </HBox>
+    </VBox>
+</core:FragmentDefinition>

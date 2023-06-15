@@ -1,0 +1,101 @@
+<core:FragmentDefinition
+    xmlns:cards="sap.f.cards"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns="sap.m"
+>
+    <VBox
+        justifyContent="Center"
+        alignItems="Center"
+    >
+        <Text
+            text="OFFERINGS"
+            class="sapUiSmallMarginTopBottom bodyTitle"
+        />
+        <Text
+            text="Our Cosmos"
+            class="bodySubTitle"
+        />
+        <HBox class="sapUiLargeMarginTop">
+            <f:Card
+                class="sapUiSmallMargin"
+                width="500px"
+                height="400px"
+            >
+                <f:content>
+                    <VBox
+                        justifyContent="Center"
+                        alignItems="Center"
+                        class="sapUiMediumMargin"
+                    >
+                        <Image
+                            src="https://discovery-center.cloud.sap/images/homePageMission.svg"
+                            width="100px"
+                            height="auto"
+                        />
+                        <Text
+                            text="Missions"
+                            class="sapUiSmallMarginTopBottom textBold"
+                        />
+                        <Text
+                            text="Implement your use cases on SAP Business Technology Platform, with step-by-step guidance and a well-established support from topic experts and SAP Community."
+                            class="sapUiLargeMarginBottom cardText"
+                            textAlign="Center"
+                        />
+                        <HBox>
+                            <Button
+                                text="Mission Catalog"
+                                class="sapUiSmallMarginEnd"
+                                type="Emphasized"
+                            />
+                            <Button
+                                text="Learn more"
+                                type="Transparent"
+                            />
+                        </HBox>
+                    </VBox>
+                </f:content>
+            </f:Card>
+            <f:Card
+                class="sapUiSmallMargin"
+                width="500px"
+                height="400px"
+            >
+                <f:content>
+                    <VBox
+                        class="sapUiMediumMargin"
+                        justifyContent="Center"
+                        alignItems="Center"
+                    >
+                        <Image
+                            src="https://discovery-center.cloud.sap/images/homePageServices.svg"
+                            width="100px"
+                            height="auto"
+                        />
+                        <Text
+                            text="Services"
+                            class="sapUiSmallMarginTopBottom textBold"
+                        />
+                        <Text
+                            text="Integrate and extend your solutions, optimize your business processes, and create an engaging digital experience using SAP Business Technology Platform services."
+                            class="sapUiLargeMarginBottom cardText"
+                            textAlign="Center"
+                        />
+                        <HBox>
+                            <Button
+                                text="Service Catalog"
+                                type="Emphasized"
+                                class="sapUiSmallMarginEnd"
+                            />
+                            <Button
+                                text="Learn more"
+                                type="Transparent"
+                            />
+                        </HBox>
+                    </VBox>
+                </f:content>
+            </f:Card>
+        </HBox>
+    </VBox>
+</core:FragmentDefinition>

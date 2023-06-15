@@ -1,0 +1,15 @@
+{
+  "generator-ui5-ts-app": {
+    "application": "ui5",
+    "namespace": "discovery",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.114.0",
+    "author": "",
+    "initrepo": true,
+    "tstypes": "@sapui5/types",
+    "tstypesVersion": "1.114.0",
+    "appId": "discovery.ui5",
+    "appURI": "discovery/ui5",
+    "setupCompleted": true
+  }
+}

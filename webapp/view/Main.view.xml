@@ -1,0 +1,45 @@
+<mvc:View
+    xmlns:uxap="sap.uxap"
+    controllerName="discovery.ui5.controller.Main"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+>
+    <uxap:ObjectPageLayout>
+        <uxap:headerTitle>
+            <core:Fragment
+                type="XML"
+                fragmentName="discovery.ui5.view.HeaderTitle"
+            />
+        </uxap:headerTitle>
+        <uxap:ObjectPageSection class="bodySection">
+            <uxap:subSections>
+                <uxap:ObjectPageSubSection class="bodySubSection">
+                    <VBox width="100vw">
+                        <core:Fragment
+                            type="XML"
+                            fragmentName="discovery.ui5.view.OurCosmos"
+                        />
+                        <core:Fragment
+                            type="XML"
+                            fragmentName="discovery.ui5.view.FeaturedContent"
+                        />
+                        <core:Fragment
+                            type="XML"
+                            fragmentName="discovery.ui5.view.CustomerStories"
+                        />
+                        <core:Fragment
+                            type="XML"
+                            fragmentName="discovery.ui5.view.FederatedRepositories"
+                        />
+                        <core:Fragment
+                            type="XML"
+                            fragmentName="discovery.ui5.view.Footer"
+                        />
+                    </VBox>
+                </uxap:ObjectPageSubSection>
+            </uxap:subSections>
+        </uxap:ObjectPageSection>
+    </uxap:ObjectPageLayout>
+</mvc:View>

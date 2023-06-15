@@ -1,0 +1,156 @@
+<core:FragmentDefinition
+    xmlns:cards="sap.f.cards"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns="sap.m"
+>
+    <VBox
+        justifyContent="Center"
+        alignItems="Center"
+        class="sapUiLargeMarginTop"
+    >
+        <Text
+            text="EXPLORERS"
+            class="sapUiSmallMarginTopBottom bodyTitle"
+        />
+        <Text
+            text="Customer Stories"
+            class="bodySubTitle"
+        />
+        <VBox class="sapUiLargeMarginTop">
+            <HBox>
+                <f:Card
+                    width="340px"
+                    height="364px"
+                >
+                    <f:content>
+                        <VBox
+                            justifyContent="SpaceBetween"
+                            width="100%"
+                            height="100%"
+                        >
+                            <VBox>
+                                <Image
+                                    src="https://proxybridgesdck5a4a61ad17b8dc3.hana.ondemand.com/proxybridge-sdc-k5a4a6-1.0.0/readonly/cmis/json/5e5fd7b197b6556fa80bc826/root?objectId=9wbN1Ks842lobBsVBSeAVecgINFoGAcRw4q9XUQH2sU"
+                                    width="100%"
+                                    height="11rem"
+                                />
+                                <VBox
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMargin"
+                                >
+                                    <Title
+                                        text="PROXIMUS"
+                                        class="textBold"
+                                    />
+                                    <Text
+                                        text="Tracking 1,000 reels of cable to increase visibility into inventory location and status."
+                                        class="cardText"
+                                    />
+                                </VBox>
+                            </VBox>
+
+                            <HBox
+                                class="sapUiSmallMarginBegin sapUiSmallMarginBottom"
+                            >
+                                <Link
+                                    text="Know More"
+                                    href="/"
+                                />
+                            </HBox>
+                        </VBox>
+                    </f:content>
+                </f:Card>
+
+                <f:Card
+                    width="340px"
+                    height="364px"
+                    class="sapUiSmallMarginBeginEnd"
+                >
+                    <f:content>
+                        <VBox
+                            justifyContent="SpaceBetween"
+                            width="100%"
+                            height="100%"
+                        >
+                            <VBox>
+                                <Image
+                                    src="https://proxybridgesdck5a4a61ad17b8dc3.hana.ondemand.com/proxybridge-sdc-k5a4a6-1.0.0/readonly/cmis/json/5e5fd7b197b6556fa80bc826/root?objectId=ETtJo2p34Rg_uqekaG-BBjYieUFBkfwQyMmycPL-t4k"
+                                    width="100%"
+                                    height="11rem"
+                                />
+                                <VBox
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMargin"
+                                >
+                                    <Title
+                                        text="DELAWARE"
+                                        class="textBold"
+                                    />
+                                    <Text
+                                        text="How Can You Gain Insight into Business Process That Run Across Multiple Cloud Applications?"
+                                        class="cardText"
+                                    />
+                                </VBox>
+                            </VBox>
+
+                            <HBox
+                                class="sapUiSmallMarginBegin sapUiSmallMarginBottom"
+                            >
+                                <Link
+                                    text="Know More"
+                                    href="/"
+                                />
+                            </HBox>
+                        </VBox>
+                    </f:content>
+                </f:Card>
+
+                <f:Card
+                    width="340px"
+                    height="364px"
+                >
+                    <f:content>
+                        <VBox
+                            justifyContent="SpaceBetween"
+                            width="100%"
+                            height="100%"
+                        >
+                            <VBox>
+                                <Image
+                                    src="https://proxybridgesdck5a4a61ad17b8dc3.hana.ondemand.com/proxybridge-sdc-k5a4a6-1.0.0/readonly/cmis/json/5e5fd7b197b6556fa80bc826/root?objectId=XpsJm9M3TRi5MtJcQg5IXKQ92vT7s00vyKGzT_dlJLE"
+                                    width="100%"
+                                    height="11rem"
+                                />
+                                <VBox
+                                    justifyContent="SpaceBetween"
+                                    class="sapUiSmallMargin"
+                                >
+                                    <Title
+                                        text="TARONGA CONSERVATION SOCIETY"
+                                        class="textBold"
+                                    />
+                                    <Text
+                                        text="Taronga Conservation Society Australia Digitally Transforms 'for the Wild'"
+                                        class="cardText"
+                                        wrappingType="Normal"
+                                    />
+                                </VBox>
+                            </VBox>
+
+                            <HBox
+                                class="sapUiSmallMarginBegin sapUiSmallMarginBottom"
+                            >
+                                <Link
+                                    text="Know More"
+                                    href="/"
+                                />
+                            </HBox>
+                        </VBox>
+                    </f:content>
+                </f:Card>
+            </HBox>
+        </VBox>
+    </VBox>
+</core:FragmentDefinition>

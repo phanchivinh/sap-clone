@@ -1,0 +1,52 @@
+<mvc:View
+    xmlns:layout="sap.ui.layout"
+    xmlns:uxap="sap.uxap"
+    controllerName="discovery.ui5.controller.Main"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+>
+    <uxap:ObjectPageSection>
+        <uxap:subSections>
+            <uxap:ObjectPageSubSection>
+                <VBox>
+                    <VBox>
+                        <Text text="OFFERINGS" />
+                        <Text text="Our Cosmos" />
+                        <HBox>
+                            <VBox>
+                                <VBox>
+                                    <Image
+                                        src="https://discovery-center.cloud.sap/images/homePageMission.svg"
+                                    />
+                                    <Text text="Missions" />
+                                    <Text
+                                        text="Implement your use cases on SAP Business Technology Platform, with step-by-step guidance and a well-established support from topic experts and SAP Community."
+                                    />
+                                </VBox>
+                                <HBox>
+                                    <Button text="Mission Catalog" />
+                                    <Button text="Learn more" />
+                                </HBox>
+                            </VBox>
+                            <VBox>
+                                <VBox>
+                                    <Image
+                                        src="https://discovery-center.cloud.sap/images/homePageServices.svg"
+                                    />
+                                    <Text text="Missions" />
+                                    <Text text="" />
+                                </VBox>
+                                <HBox>
+                                    <Button text="Mission Catalog" />
+                                    <Button text="Learn more" />
+                                </HBox>
+                            </VBox>
+                        </HBox>
+                    </VBox>
+                </VBox>
+            </uxap:ObjectPageSubSection>
+        </uxap:subSections>
+    </uxap:ObjectPageSection>
+</mvc:View>

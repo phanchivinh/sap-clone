@@ -1,0 +1,193 @@
+<core:FragmentDefinition
+    xmlns:tnt="sap.tnt"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+>
+    <VBox class="grayBackground sapUiLargeMarginTop">
+        <VBox
+            justifyContent="Center"
+            alignItems="Center"
+        >
+            <Text
+                text="FLEET"
+                class="sapUiSmallMarginTopBottom bodyTitle"
+            />
+            <Text
+                text="Featured Content"
+                class="bodySubTitle"
+            />
+        </VBox>
+        <HBox
+            justifyContent="Center"
+            class="sapUiLargeMarginTop"
+        >
+            <VBox width="1000px">
+                <Carousel
+                    backgroundDesign="Transparent"
+                    class="noBorder"
+                >
+                    <customLayout>
+                        <CarouselLayout visiblePagesCount="3" />
+                    </customLayout>
+
+                    <f:Card
+                        height="313px"
+                        width="95%"
+                        class="sapUiTinyMargin"
+                    >
+                        <f:content>
+                            <VBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                                width="100%"
+                            >
+                                <Image
+                                    src="https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/DJJhnqwPssDZrcO-ZOZEeJKL2HVcKfaN0qWJaezC5k1h1ms2dhj03Ic53UR2WtT4.svg"
+                                    width="84px"
+                                    height="84px"
+                                    class="sapUiSmallMarginTopBottom"
+                                />
+                                <Text
+                                    text="Getting Started on SAP Business Technology Platform"
+                                    class="textBold"
+                                    textAlign="Center"
+                                />
+                                <HBox class="sapUiSmallMarginBottom">
+                                    <tnt:InfoLabel
+                                        text="MISSION"
+                                        colorScheme="5"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <f:Card
+                        height="313px"
+                        width="95%"
+                        class="sapUiTinyMargin"
+                    >
+                        <f:content>
+                            <VBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                                width="100%"
+                            >
+                                <Image
+                                    src="https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/rj8ejc0hmzBA7vzDSXcsGN0Smfrmiq8rsaIj2uIbir7V51_cDvcOxqQJoCTi5g8c.svg"
+                                    width="84px"
+                                    height="84px"
+                                    class="sapUiSmallMarginTopBottom"
+                                />
+                                <Text
+                                    text="Integration Suite"
+                                    class="textBold"
+                                    textAlign="Center"
+                                />
+                                <HBox class="sapUiSmallMarginBottom">
+                                    <tnt:InfoLabel
+                                        text="MISSION"
+                                        colorScheme="5"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <f:Card
+                        height="313px"
+                        width="95%"
+                        class="sapUiTinyMargin"
+                    >
+                        <f:content>
+                            <VBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                                width="100%"
+                            >
+                                <Image
+                                    src="https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/A7DWYBoYRuGw8xwQHjaHxjl4FaZshKHVUj4ILho_vgFCzv1PAPWpWSuMpbT9qRvI.svg"
+                                    width="84px"
+                                    height="84px"
+                                    class="sapUiSmallMarginTopBottom"
+                                />
+                                <Text
+                                    text="SAP HANA Cloud"
+                                    class="textBold"
+                                    textAlign="Center"
+                                />
+                                <HBox class="sapUiSmallMarginBottom">
+                                    <tnt:InfoLabel
+                                        text="MISSION"
+                                        colorScheme="5"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <f:Card
+                        height="313px"
+                        width="95%"
+                        class="sapUiTinyMargin"
+                    >
+                        <f:content>
+                            <VBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                                width="100%"
+                            >
+                                <Image
+                                    src="https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/_xfJ99LNIjUjeuRb-xZYQLTOz8QvYeeMxjNso2P9hiCcurcKnScO7Wh3R0EMy2lp.svg"
+                                    width="84px"
+                                    height="84px"
+                                    class="sapUiSmallMarginTopBottom"
+                                />
+                                <Text
+                                    text="SAP Business Application Studio"
+                                    class="textBold"
+                                    textAlign="Center"
+                                />
+                                <HBox class="sapUiSmallMarginBottom">
+                                    <tnt:InfoLabel
+                                        text="MISSION"
+                                        colorScheme="5"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                    <f:Card
+                        height="313px"
+                        width="95%"
+                        class="sapUiTinyMargin"
+                    >
+                        <f:content>
+                            <VBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                                width="100%"
+                            >
+                                <Image
+                                    src="https://digitalmarketplace-sapcpprd.s3.eu-central-1.amazonaws.com/DJJhnqwPssDZrcO-ZOZEeJKL2HVcKfaN0qWJaezC5k1h1ms2dhj03Ic53UR2WtT4.svg"
+                                    width="84px"
+                                    height="84px"
+                                    class="sapUiSmallMarginTopBottom"
+                                />
+                                <Text
+                                    text="Getting Started with Discovery Center Missions"
+                                    class="textBold"
+                                    textAlign="Center"
+                                />
+                                <HBox class="sapUiSmallMarginBottom">
+                                    <tnt:InfoLabel
+                                        text="MISSION"
+                                        colorScheme="5"
+                                    />
+                                </HBox>
+                            </VBox>
+                        </f:content>
+                    </f:Card>
+                </Carousel>
+            </VBox>
+        </HBox>
+    </VBox>
+</core:FragmentDefinition>

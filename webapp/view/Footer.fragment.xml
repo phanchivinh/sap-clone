@@ -1,0 +1,62 @@
+<core:FragmentDefinition
+    xmlns:cards="sap.f.cards"
+    xmlns:f="sap.f"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns="sap.m"
+>
+    <HBox
+        justifyContent="Center"
+        class="footerBackground"
+        height="200px"
+        width="100vw"
+    >
+        <Image
+            src="https://discovery-center.cloud.sap/images/sap_logo.svg"
+            height="30px"
+            class="sapUiLargeMarginTop"
+        />
+        <VBox class="sapUiLargeMarginBegin sapUiLargeMarginTop">
+            <Text text="LONDON" />
+            <VBox class="sapUiSmallMarginTop">
+                <Link
+                    href="/"
+                    text="newbusiness@weareimpero.com"
+                />
+                <Text text="+44 20 8990 7571" />
+                <Text
+                    text="Unit 306, Metropolitan Wharf,70 Wapping Wall, London E1W 3SS"
+                />
+            </VBox>
+            <Link
+                href='/'
+                text='SEE ON MAP'
+                class="sapUiSmallMarginTop"
+            />
+        </VBox>
+        <VBox class="sapUiLargeMarginBegin sapUiLargeMarginTop">
+            <Text text="BUENOS AIRES" />
+            <VBox class="sapUiSmallMarginTop">
+                <Link
+                    href="/"
+                    text="buesnoaires@weareimpero.com"
+                />
+                <Text text="+54 11 6799 7949" />
+                <Text text="Cabildo 1458 1st floor, Buenos Aires" />
+            </VBox>
+            <Link
+                href='/'
+                text='SEE ON MAP'
+                class="sapUiSmallMarginTop"
+            />
+        </VBox>
+        <VBox class="sapUiLargeMarginBegin sapUiLargeMarginTop">
+            <Text text="WANT TO BE THE SMARTEST IN YOUR OFFICE?" />
+            <Link
+                href="/"
+                text="SIGN UP FOR OUT NEWSLETTER"
+                class="sapUiSmallMarginTop"
+            />
+        </VBox>
+    </HBox>
+</core:FragmentDefinition>

@@ -1,0 +1,58 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:uxap="sap.uxap"
+>
+    <uxap:ObjectPageDynamicHeaderTitle class="headerbackground">
+        <uxap:expandedContent>
+            <VBox
+                height="240px"
+                width="100%"
+                justifyContent="Center"
+                alignItems="Center"
+            >
+                <VBox
+                    justifyContent="Center"
+                    alignItems="Center"
+                >
+                    <Text
+                        text="Welcom to the SAP Discovery Center"
+                        textAlign="Center"
+                        class="overviewPageTitle"
+                    />
+                    <Text
+                        text="Adopt and understand SAP Business Technology Platform to turn data into business value"
+                        textAlign="Center"
+                        class="overviewPageSubTitle sapUiSmallMarginTopBottom"
+                    />
+                    <HBox>
+                        <SearchField
+                            width="50rem"
+                            maxLength="100"
+                            placeholder="Search for missions and services"
+                            class="sapUiLargeMarginTop overviewPageSearch"
+                        />
+                    </HBox>
+                </VBox>
+            </VBox>
+        </uxap:expandedContent>
+        <uxap:snappedContent>
+            <VBox
+                justifyContent="Center"
+                alignItems="Center"
+            >
+                <Text
+                    text="Welcom to the SAP Discovery Center"
+                    textAlign="Center"
+                    class="overviewPageTitle"
+                />
+                <SearchField
+                    width="50rem"
+                    maxLength="100"
+                    placeholder="Search for missions and services"
+                    class="sapUiSmallMarginTop overviewPageSearch"
+                />
+            </VBox>
+        </uxap:snappedContent>
+    </uxap:ObjectPageDynamicHeaderTitle>
+</core:FragmentDefinition>
